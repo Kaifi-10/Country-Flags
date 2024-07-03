@@ -15,7 +15,7 @@ function Country() {
                 const data = await res.json()
                 setData(data)
             } catch (e) {
-                console.error("Error fetching data: ",e)
+                console.error("Error fetching data: ",e);
             }
         }
         fetchData()
